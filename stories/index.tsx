@@ -2,6 +2,8 @@ import * as React from "react";
 import { withKnobs, text, number } from '@storybook/addon-knobs';
 import { storiesOf } from "@storybook/react";
 import { SampleWidget } from "../src";
+// import { action } from '@storybook/addon-actions';
+// import { Button } from 'semantic-ui-react';
 
 const stories = storiesOf("Sample Library", module)
 
@@ -35,3 +37,14 @@ stories
             ],
         },
     );
+    // .add('Action and method', () => (
+    //     <Button
+    //         onClick={event => {
+    //             event.preventDefault();
+    //             action('method-log')(event.target);
+    //         }}
+    //     >
+    //       Click me to log the action
+    //     </Button>
+    //   )
+    // );
