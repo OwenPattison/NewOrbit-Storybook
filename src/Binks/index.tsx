@@ -36,7 +36,7 @@ export function PersonalWebsite({}) {
 export class RandomGif extends React.Component<{ tag?: string }, { gifUrl: string }> {
 
     public async componentWillMount() {        
-        const response: any = await fetch(`http://api.giphy.com/v1/gifs/random?api_key=FkGKV8bXOlRZSVPNa2BxDrCyWoXZek7a&tag=${this.props.tag}`);
+        const response: any = await fetch(`https://api.giphy.com/v1/gifs/random?api_key=FkGKV8bXOlRZSVPNa2BxDrCyWoXZek7a&tag=${this.props.tag}`);
 
         const gifData = await response.json();
 
