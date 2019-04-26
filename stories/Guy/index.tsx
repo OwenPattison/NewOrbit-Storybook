@@ -8,7 +8,7 @@ const stories = storiesOf("Guy", module)
 stories.addDecorator(withKnobs);
 
 stories
-    .add("Lovely Thing",() => (
+    .add("Are you lucky, punk?",() => (
             <Winner></Winner>
         ),
     );
