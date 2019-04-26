@@ -1,0 +1,7 @@
+.tag-list {
+    list-style-type: none;
+}
+
+.tag-list li:not(:last-child) {
+    margin-bottom: 0.6em;
+}
