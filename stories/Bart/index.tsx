@@ -7,7 +7,7 @@ const stories = storiesOf("Bart", module)
 stories.addDecorator(withKnobs);
 
 stories
-    .add("Lovely Thing",() => (
-            <h1>Please add something lovely here!</h1>
+    .add("Root cause of bugs",() => (
+            <iframe width="800" height="600" src="https://condescending-kilby-151061.netlify.com/?path=/story/bart--lovely-thing" frameBorder="0" allowFullScreen></iframe>
         ),
     );
