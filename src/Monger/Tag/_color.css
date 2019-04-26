@@ -1,0 +1,16 @@
+.tag {
+    background: #43BAE6;
+    color: white;
+}
+
+.tag:before {
+    border-right-color: #43BAE6;
+}
+
+.tag:hover {
+    background: #8AD0EA;
+}
+
+.tag:hover:before {
+    border-right-color: #6CD0EA;
+}
