@@ -27,9 +27,9 @@ stories
                     id: "throbbing",
                     code: `<style>
                         @keyframes throbbing {
-                            0% { transform: scale(1) },
-                            50% { transform: scale(2) },
-                            100% { transform: scale(1) }
+                            0% { transform: scale(1); }
+                            50% { transform: scale(2); }
+                            100% { transform: scale(1); }
                         }
                         .throbbing {
                             animation-name: throbbing;
