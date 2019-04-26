@@ -15,7 +15,7 @@ stories
     .add("Valedictory",() => (
         <Farewell
             name={text('Name', 'PvB')}
-            age={text('Age', '30++++++++')}
+            age={text('Age', '40++++++++')}
         />
     ),
     {
