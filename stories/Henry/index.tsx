@@ -15,7 +15,9 @@ const clearableOptions: { [s: string]: boolean | "auto" } = {
 }
 
 stories
-    .add("Rating",() => (
+    .add(
+        "Rating",
+        () => (
             <Rating
                 rating={number("rating", 3)}
                 maxRating={number("maxRating", 5)}
@@ -28,4 +30,7 @@ stories
 
             />
         ),
+        {
+            info: { inline: true }
+        }
     );
