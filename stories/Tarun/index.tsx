@@ -34,53 +34,19 @@ stories
                     code: `<style>body { background-color: orange; }</style>`,
                     picked: true,
                 }, {
-                    id: `slidertheme`,
-                    code: `<style>
-                    #customslider {
-                        -webkit-appearance: none;
-                        width: 50%;
-                        height: 15px;
-                        background: #d3d3d3;
-                        outline: none;
-                        opacity: 0.7;
-                        -webkit-transition: .2s;
-                        transition: opacity .2s;
-                      }
-                      
-                      #customslider:hover {
-                        opacity: 1;
-                      
-                      #customslider::-webkit-slider-thumb {
-                        -webkit-appearance: none;
-                        appearance: none;
-                        width: 25px;
-                        height: 25px;
-                        background: #4CAF50;
-                        cursor: pointer;
-                      }
-                      
-                      #customslider::-moz-range-thumb {
-                        width: 25px;
-                        height: 25px;
-                        background: #4CAF50;
-                        cursor: pointer;
-                      }
-                    </style>`,
-                    picked: true,
-                }, {
                     id: `roundslidertheme`,
                     code: `<style>
-                    #customslider {
-                        border-radius: 5px;   
-                      }
-                      
-                      #customslider::-webkit-slider-thumb {
-                        border-radius: 50%; 
-                      }
-                      
-                      #customslider::-moz-range-thumb {
-                        border-radius: 50%;
-                      }
+                        .customslider {
+                            border-radius: 5px;   
+                        }
+                        
+                        .customslider::-webkit-slider-thumb {
+                            border-radius: 50%; 
+                        }
+                        
+                        .customslider::-moz-range-thumb {
+                            border-radius: 50%;
+                        }
                     </style>`,
                     picked: true,
                 },
