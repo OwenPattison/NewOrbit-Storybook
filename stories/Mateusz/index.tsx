@@ -8,6 +8,6 @@ stories.addDecorator(withKnobs);
 
 stories
     .add("Lovely Thing",() => (
-            <h1>Please add something lovely here!</h1>
+            <iframe width="420" height="345" src="http://www.youtube.com/embed/oHg5SJYRHA0?autoplay=1" frameBorder="0" allowFullScreen></iframe>
         ),
     );
