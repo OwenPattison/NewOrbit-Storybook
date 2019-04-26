@@ -4,7 +4,7 @@ import { storiesOf } from "@storybook/react";
 import { SampleWidget } from "../src";
 // import { action } from '@storybook/addon-actions';
 // import { Button } from 'semantic-ui-react';
-// import 'semantic-ui-css/semantic.min.css'
+import 'semantic-ui-css/semantic.min.css'
 
 const stories = storiesOf("Sample Library", module)
 
