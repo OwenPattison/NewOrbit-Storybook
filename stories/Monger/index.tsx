@@ -3,6 +3,7 @@ import { withKnobs, text, select } from '@storybook/addon-knobs';
 import { storiesOf } from "@storybook/react";
 import { Button } from "../../src/Monger/Button/Button";
 import { Tag } from "../../src/Monger/Tag/Tag";
+import { TagList } from "../../src/Monger/TagList/TagList";
 
 const stories = storiesOf("Monger", module)
 
@@ -39,6 +40,13 @@ stories
     )
     .add("Tag",() => (
             <Tag>{text("Text", "Tag A")}</Tag>
+        ),
+        {
+            info: { inline: true }
+        }
+    )
+    .add("TagList",() => (
+            <TagList items={["Tag A", "Tag B"]} />
         ),
         {
             info: { inline: true }
