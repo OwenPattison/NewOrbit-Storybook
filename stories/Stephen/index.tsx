@@ -13,13 +13,13 @@ stories
                 background: "linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet)",
                 width: "100%",
                 height: "40vh",
-                cursor: "url(http://www.rw-designer.com/cursor-teaser/ultimate-unicorn.png), auto"
+                cursor: "url(http://www.rw-designer.com/cursor-view/104863.gif), auto"
 
             }}>
                 <h1 style={{
                     textAlign: "center",
                     fontSize: "3em",
-                    color: "purple",
+                    color: "purple"
                 }}>Hello world</h1>
             </div>
         ),
